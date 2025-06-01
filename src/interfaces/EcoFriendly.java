@@ -1,4 +1,5 @@
 package interfaces;
 
-public class EcoFriendly {
+public interface EcoFriendly {
+    void reduceEmissions();
 }
