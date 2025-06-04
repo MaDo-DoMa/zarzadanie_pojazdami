@@ -1,9 +1,28 @@
 Zadania
 
-Zadanie 1
+Zadanie 1 Popraw błędy w kodzie
+abstract class Vehicle {
+    abstract void drive();
+    void refuel();
+}
+
+class Car extends Vehicle {
+    void drive() {
+        System.out.println("Car is driving");
+    }
+}
 
 Zadanie 2
+Stwórz klasę abstrakcyjną Animal z metodą abstrakcyjną makeSound() oraz metodą breathe(), która wypisuje "Breathing...".
+Następnie stwórz klasę Dog, która dziedziczy po Animal i implementuje makeSound() wypisując "Woof!".
 
 Zadanie 3
+Zaprojektuj interfejs Chargeable z metodą charge().
+Następnie dodaj go do klasy ElectricScooter, która dziedziczy po klasie abstrakcyjnej Vehicle.
+Zaimplementuj metodę charge() w klasie ElectricScooter.
 
 Zadanie 4
+Utwórz klasę abstrakcyjną Aircraft, a następnie klasę Plane, która dziedziczy po Aircraft i implementuje interfejs Flyable.
+interface Flyable {
+    void fly();
+}
